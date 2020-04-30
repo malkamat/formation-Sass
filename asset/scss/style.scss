@@ -1,0 +1,13 @@
+// appel aux mixins
+
+@import 'mixins/boite';
+@import 'mixins/transform';
+
+// appel des partials
+
+@import 'partials/variables';
+@import 'partials/app.scss';
+
+/* commentaire visible dans le fichier css */
+
+// commentaire invisible dans le fichier css

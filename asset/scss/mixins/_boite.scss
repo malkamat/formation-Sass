@@ -1,0 +1,11 @@
+@mixin boite($largeur, $coul) {
+    width: $largeur;
+    background-color: $coul;
+    padding: 2px;
+    p {
+        span {
+            color: red;
+            font-size: 45px;
+            }
+        }
+}
